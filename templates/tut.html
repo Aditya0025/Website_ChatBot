@@ -1,0 +1,112 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../static/css/tut.css">
+
+
+</head>
+
+<body>
+
+    <div>
+        <button class="pop-up" onclick="clickB()" id="Pop">Chat with me</button>
+    </div>
+
+    <div class="container" id="myform">
+        <form action="/data" method="POST">
+            <!-- Front deirections -->
+            <span id='close'>x</span>
+            <div class="msg-header">
+                <div class="msg-header-img">
+
+                    <!-- source of the path -->
+                    <img src="../static/img/img.jpeg" alt="">
+                </div>
+
+                <div class="active">
+                    <h4> Aditya</h4>
+                    <h6> Chat with me</h6>
+
+                </div>
+                <div class="header-icon">
+                    <!-- icons for the font awesome download -->
+
+                </div>
+
+
+            </div>
+
+
+            <!-- chat division -->
+
+
+            <div class="chat-page">
+                <div class="msg-inbox">
+                    <div class="chats">
+                        <div class="msg-page">
+
+                            <div class="received-chats">
+
+                                <div class="received-chats-img">
+                                    <img src="" alt="">
+                                </div>
+
+                                <div class="received-msg">
+                                    <div class="received-msg-inbox">
+                                        <p id="recieved_msg">Hi this messsage is from Aditya</p>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+
+
+                            <div class="outgoing-chats">
+
+                                <div class="outgoing-chats-img">
+                                    <img src="" alt="">
+                                </div>
+
+                                <div class="outgoing-chats-msg">
+                                    <div class="outgoing-chats-inbox" id="recieved_msg">
+                                        <p>Hi this is from Bot</p>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div>
+                        <input type="text" name="chatbox" id="chatbox" placeholder="Start Conversation">
+                    </div>
+                    <div>
+                        <input type="submit" name="Submit" id="Submit" placeholder="Submit">
+                    </div>
+                </div>
+        </form>
+        </div>
+
+
+
+    </div>
+
+
+
+    <script src="../static/js/tut.js "></script>
+</body>
+
+</html>

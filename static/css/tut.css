@@ -1,0 +1,155 @@
+.pop-up {
+    background-color: chocolate;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+    display: inline-block;
+}
+
+.container {
+    max-width: 500 !important;
+    margin: auto;
+    margin-top: 4%;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    z-index: 9;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.msg-header {
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 10%;
+    border-bottom: none;
+    display: inline-block;
+    background-color: #007bff;
+}
+
+.msg-header-img {
+    border-radius: 50%;
+    width: 40px;
+    margin-left: 5px;
+    margin-top: 12px;
+    float: left;
+}
+
+.header-icons {
+    width: 120px;
+    float: right;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+.active {
+    width: 120px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.chat-page {
+    padding: 0 0 50px 0;
+}
+
+.msg-inbox {
+    border: 1px solid rgb(243, 236, 236);
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+.chats {
+    padding: 30px 15px 0 25px;
+}
+
+.msg-page {
+    height: 400px;
+    overflow-y: auto;
+}
+
+.received-chats-img {
+    display: inline-block;
+    width: 20px;
+    float: left;
+}
+
+.received-msg {
+    display: inline-block;
+    padding: 0 0 0 10px;
+    vertical-align: top;
+    width: 92%;
+}
+
+.received-msg-inbox {
+    width: 57%;
+}
+
+.received-msg-inbox p {
+    background-color: rgb(126, 92, 49) none repeat scroll 0 0;
+    border-radius: 10px;
+    color: #646464;
+    font-size: 20;
+    margin: 0;
+    padding: 5px 10px 5px 12px;
+    width: 100%;
+}
+
+.outgoing-chats {
+    overflow: hidden;
+    margin: 26px 20px;
+}
+
+.outgoing-chats-msg p {
+    background-color: rgb(17, 111, 134) none repeat scroll 0 0;
+    border-radius: 10px;
+    color: #62bb0f;
+    font-size: 20;
+    margin: 0;
+    padding: 5px 10px 5px 12px;
+    width: 100%;
+}
+
+.outgoing-chats-msg {
+    float: left;
+    width: 46%;
+    margin-left: 50%;
+}
+
+#close {
+    float: right;
+    display: inline-block;
+    padding: 2px 5px;
+    background: #ccc;
+}
+
+#close:hover {
+    float: right;
+    display: inline-block;
+    padding: 2px 5px;
+    background: #ccc;
+    color: #fff;
+}
+
+#chatbox {
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 10px;
+}
+
+#Submit {
+    display: none;
+    opacity: 0;
+}
